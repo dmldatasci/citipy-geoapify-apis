@@ -1,4 +1,5 @@
 # citipy-geoapify-apis
+A project exploring the `citipy` and `Geoapify` APIs to produce a dataset of randomized global cities and associated weather data.
 
 ## Procedure
 This activity is broken down into two deliverables, WeatherPy and VacationPy.
@@ -7,17 +8,15 @@ This activity is broken down into two deliverables, WeatherPy and VacationPy.
 The `WeatherPy.ipynb` notebook generates random latitude/longitude combinations and uses the `citipy` library to find the closest cities to those locations. Using those city names, the OpenWeatherMap API is used to retrieve geocoding information and weather data. Regression analysis is used to fit a simple first degree polynomial model to Northern and Southern hemisphere relationships between latitude and a variety of weather attributes in the cities of interest.
 
 **1. Create Plots to Showcase the Relationship Between Weather Variables and Latitude**
-- Use the OpenWeatherMap API to retrieve weather data from the cities list generated in the starter code. Next, you'll create a series of scatter plots to showcase the following relationships:
+  - Use random generation techniques and the `citipy` API to create a random list of global cities.
+  - Use the `OpenWeatherMap` API to retrieve weather data from the random cities list.
+  - Create a series of scatter plots to showcase the following relationships:
+    - _Latitude vs. Temperature_
+    - _Latitude vs. Humidity_
+    - _Latitude vs. Cloudiness_
+    - _Latitude vs. Wind Speed_
 
-Latitude vs. Temperature
-
-Latitude vs. Humidity
-
-Latitude vs. Cloudiness
-
-Latitude vs. Wind Speed
-
-Requirement 2: Compute Linear Regression for Each Relationship
+**2. Compute Linear Regression for Each Relationship**
 To fulfill the second requirement, compute the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). You may find it helpful to define a function in order to create the linear regression plots.
 
 Next, create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r values as you can see in the following image
