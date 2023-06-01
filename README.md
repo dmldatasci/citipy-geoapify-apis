@@ -24,6 +24,9 @@ The `WeatherPy.ipynb` notebook generates random latitude/longitude combinations 
 - Create a series of scatter plots including the linear regression line, the model's formula, and the $r$ values:
   - _Northern Hemisphere: Temperature vs. Latitude_
   - _Southern Hemisphere: Temperature vs. Latitude_
+  
+  ![Temperature Regression](images/Temperature_(ºC)_Regression.png)
+  
   - _Northern Hemisphere: Humidity vs. Latitude_
   - _Southern Hemisphere: Humidity vs. Latitude_
   - _Northern Hemisphere: Cloudiness vs. Latitude_
