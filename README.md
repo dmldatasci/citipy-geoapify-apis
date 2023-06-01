@@ -43,24 +43,12 @@ The `WeatherPy.ipynb` notebook generates random latitude/longitude combinations 
   ![Wind Speed Regression](images/wind_speed_regressions.png)
 
 #### Deliverable 2: VacationPy
-The `VacationPy.ipynb` notebook maps the collected city data with humidity scaling marker size. Then, ideal weather condition preferences are used to restrict the data frame to a handful of viable vacation options. The Geoapify API is used to retrieve the closest hotel within 10,000 meters of the latitude/longitude retrieved for each relevant city. The same map is generated with the additional hotel information, restricted to ideal locations.
+**1. Map Cities with Markers Scaled by Humidity
+- Map the collected city data with humidity scaling marker size. 
+- 
+![Vacation Candidate Cities](images/all_cities.png)
 
-Humidity map
-Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
-
-A max temperature lower than 27 degrees but higher than 21
-
-Wind speed less than 4.5 m/s
-
-Zero cloudiness
-
-NOTE
-Feel free to adjust your specifications but make sure to set a reasonable limit to the number of rows returned by your API requests.
-
-Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
-
-For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
-
-Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
-
-Hotel map
+- Use ideal weather condition preferences to restrict the cities data frame to a handful of viable vacation options.
+- Use the Geoapify API to retrieve the closest hotel within 10,000 meters of the latitude/longitude retrieved for each relevant city.
+- Generate the same map as above, but restricted to ideal locations and with the hotel information added.
+![Vacation Candidate Cities](images/all_cities.png)
