@@ -16,6 +16,8 @@ The `WeatherPy.ipynb` notebook generates random latitude/longitude combinations 
     - _Latitude vs. Cloudiness_
     - _Latitude vs. Wind Speed_
 
+    ![Latitude Scatterplots](images/latitude_scatterplots.png)
+
 **2. Compute Linear Regression for Each Relationship**
 - Compute the linear regression for each relationship.
 - Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude).
