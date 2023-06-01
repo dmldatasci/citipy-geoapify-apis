@@ -51,4 +51,4 @@ The `WeatherPy.ipynb` notebook generates random latitude/longitude combinations 
 - Use ideal weather condition preferences to restrict the cities data frame to a handful of viable vacation options.
 - Use the Geoapify API to retrieve the closest hotel within 10,000 meters of the latitude/longitude retrieved for each relevant city.
 - Generate the same map as above, but restricted to ideal locations and with the hotel information added.
-![Vacation Candidate Cities](images/all_cities.png)
+![Vacation Candidate Cities Filtered by Weather](images/ideal_weather.png)
