@@ -43,12 +43,16 @@ The `WeatherPy.ipynb` notebook generates random latitude/longitude combinations 
   ![Wind Speed Regression](images/wind_speed_regressions.png)
 
 #### Deliverable 2: VacationPy
-**1. Map Cities with Markers Scaled by Humidity
-- Map the collected city data with humidity scaling marker size. 
-- 
+**1. Map Cities with Markers Scaled by Humidity**
+- Map the collected city data with marker size scaled by humidity.
+
 ![Vacation Candidate Cities](images/all_cities.png)
 
+**2. Map Cities with Markers Scaled by Humidity**
 - Use ideal weather condition preferences to restrict the cities data frame to a handful of viable vacation options.
+  - _Maximum temperature greater than 22ºC_
+  - _No cloudiness_ 
 - Use the Geoapify API to retrieve the closest hotel within 10,000 meters of the latitude/longitude retrieved for each relevant city.
 - Generate the same map as above, but restricted to ideal locations and with the hotel information added.
+
 ![Vacation Candidate Cities Filtered by Weather](images/ideal_weather.png)
