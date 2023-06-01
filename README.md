@@ -35,7 +35,7 @@ The `WeatherPy.ipynb` notebook generates random latitude/longitude combinations 
   - _Northern Hemisphere: Cloudiness vs. Latitude_
   - _Southern Hemisphere: Cloudiness vs. Latitude_
 
-  ![Cloudiness Regression](images/Cloudiness_(/%)_Regressions.png)
+  ![Cloudiness Regression](images/Cloudiness_(%)_Regressions.png)
 
   - _Northern Hemisphere: Wind Speed vs. Latitude_
   - _Southern Hemisphere: Wind Speed vs. Latitude_
