@@ -25,14 +25,22 @@ The `WeatherPy.ipynb` notebook generates random latitude/longitude combinations 
   - _Northern Hemisphere: Temperature vs. Latitude_
   - _Southern Hemisphere: Temperature vs. Latitude_
   
-  ![Temperature Regression](images/Temperature_(ºC)_Regression.png)
+  ![Temperature Regression](images/Temperature_(ºC)_Regressions.png)
   
   - _Northern Hemisphere: Humidity vs. Latitude_
   - _Southern Hemisphere: Humidity vs. Latitude_
+
+  ![Humidity Regression](images/Humidity_(%)_Regressions.png)
+
   - _Northern Hemisphere: Cloudiness vs. Latitude_
   - _Southern Hemisphere: Cloudiness vs. Latitude_
+
+  ![Cloudiness Regression](images/Cloudiness_(%)_Regressions.png)
+
   - _Northern Hemisphere: Wind Speed vs. Latitude_
   - _Southern Hemisphere: Wind Speed vs. Latitude_
+
+  ![Wind Speed Regression](images/Wind_Speed_(meters_per_sec)_Regressions.png)
 
 #### Deliverable 2: VacationPy
 The `VacationPy.ipynb` notebook maps the collected city data with humidity scaling marker size. Then, ideal weather condition preferences are used to restrict the data frame to a handful of viable vacation options. The Geoapify API is used to retrieve the closest hotel within 10,000 meters of the latitude/longitude retrieved for each relevant city. The same map is generated with the additional hotel information, restricted to ideal locations.
